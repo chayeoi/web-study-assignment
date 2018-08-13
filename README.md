@@ -1,5 +1,7 @@
 # web-study-assignment
 
+## 과제 제출
+
 1. https://github.com/chayeoi/web-study-assignment을 본인의 github 계정으로 fork합니다.
 2. fork한 repository를 로컬로 clone합니다.
 3. 터미널에서 clone한 repository로 이동한 다음, 아래 명령을 실행하세요.
@@ -17,3 +19,11 @@ git push origin master
 ```
 
 7. 본인의 원격 repository로 접속한 다음 pull request를 생성합니다.
+
+## 과제 동기화
+
+clone한 로컬 repository에서 다음 명령을 실행하면 동기화할 수 있습니다.
+
+```bash
+git pull upstream master
+```
