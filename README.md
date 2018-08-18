@@ -51,6 +51,12 @@ git push origin feature/1
 
 4. 브라우저에서 fork한 원격 repository로 접속 후 원본 repository에 대한 pull request를 생성합니다.
 
+## 코드 리뷰 진행 및 반영하기
+
+1. 
+
+이전에 요청한 pull request가 아직 닫히지 않았다면, push하는 것만으로도 변경 사항이 이전 pull request에 반영됩니다.
+
 7. 본인의 원격 respository로 push합니다.
 
 ```bash
