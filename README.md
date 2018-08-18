@@ -74,3 +74,6 @@ git push origin feature/1
 ```bash
 git pull upstream master
 ```
+
+## 벌금 현황
+
