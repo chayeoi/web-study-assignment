@@ -61,21 +61,15 @@ git push origin feature/1
 
 ## 코드 리뷰 진행 및 반영하기
 
-1. 
+1. 원본 repository의 `pull request` 패널에서 코드 리뷰를 진행합니다.
 
-이전에 요청한 pull request가 아직 닫히지 않았다면, push하는 것만으로도 변경 사항이 이전 pull request에 반영됩니다.
+![review-assignment-1](./assets/review-assignment-1.png)
 
-7. 본인의 원격 respository로 push합니다.
+2. 수정 요구 사항이 있다면 반영한 후 add, commit, push합니다. 만약 이전에 요청한 pull request가 아직 닫히지 않았다면, push까지만 진행하는 것으로도 변경 사항이 이전 pull request에 즉시 반영됩니다.
 
-```bash
-git push origin master
-```
+## 내 로컬 repository를 중앙 원격 repository(upstream)와 동기화하기
 
-7. 본인의 원격 repository로 접속한 다음 pull request를 생성합니다.
-
-## 로컬 repository를 원격 repository와 동기화하기
-
-clone한 로컬 repository에서 다음 명령을 실행하면 동기화할 수 있습니다.
+1. 터미널에서 다음 명령을 실행하면 로컬 repository의 master 브랜치를 중앙 원격 repository(upstream)의 master 브랜치와 동기화할 수 있습니다.
 
 ```bash
 git pull upstream master
