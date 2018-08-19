@@ -1,0 +1,5 @@
+시멘틱 마크업(Semantic Markup)
+
+HTML(HyperText Markup Language)은 웹사이트 콘텐츠를 설명하는데 사용되는 마크업 언어입니다.
+HTML은 콘텐츠의 의미를 설명하는데 유일한 목적을 가집니다. 비주얼 디자인(모양, 색, 크기 등)이
+목표가 아니라, 구조 설계(Structure Design)를 목표로 합니다.
