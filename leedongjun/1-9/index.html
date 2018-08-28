@@ -13,12 +13,12 @@
 <body>
     <h1>카카오 뱅크</h1>
     <h2>금리 안내</h2>
-    <p>예금 / 적금 및 대출 금리를 한눈에 확인 할 수 있습니다.</p>
+    <p id="dt">예금 / 적금 및 대출 금리를 한눈에 확인 할 수 있습니다.</p>
 
-    <table border="1" aria-describedby="deposit-table">
+    <table border="1" aria-describedby="dt">
         <caption>
-            <p>예금 / 적금</p>
-            <p>기준일자:2018.03.11(연이율, 세전, 단위 : %)</p>
+            <h3>예금 / 적금</h3>
+            <p>기준일자:<time datetime="2018-03-11">2018.03.11</time>(연이율, 세전, 단위 : %)</p>
         </caption>
         <thead>
             <tr>
@@ -29,7 +29,7 @@
             </tr>
             <tr>
                 <th id="dp-4-1" scope="col">기본</th>
-                <th id="dp-4-2" scope="col">우대<sub>주1)</sub></th>
+                <th id="dp-4-2" scope="col">우대<sub><a id="deposit-table-sub" href="#deposit-table">주1)</a></sub></th>
             </tr>
         </thead>
         <tbody>
@@ -104,12 +104,13 @@
         </tbody>
 
     </table>
-    <p id="deposit-table">* 주1) 우대금리 조건은 카카오뱅크 모바일앱 또는 상품설명서를 참고하시기 바랍니다.</p>
+    <p id="deposit-table">* <a href="#deposit-table-sub">주1)</a> 우대금리 조건은 카카오뱅크 모바일앱 또는 상품설명서를 참고하시기 바랍니다.</p>
 
-    <table border="1" aria-describedby="loans-table-1 loans-table-2 loans-table-3">
+
+    <table border="1">
         <caption>
-            <p>대출</p>
-            <p>기준일자:2018.03.11(단위 : %)</p>
+            <h3>대출</h3>
+            <p>기준일자:<time datetime="2018-03-11">2018.03.11</time>(단위 : %)</p>
         </caption>
         <thead>
             <tr>
@@ -120,12 +121,12 @@
         </thead>
         <tbody>
             <tr>
-                <td headers="lo-1">신규 취금액 기준 COFIX <sub>주1)</sub></td>
+                <td headers="lo-1">신규 취금액 기준 COFIX <sub><a id="loans-table-1-1" href="#loans-table-1">주1)</a></sub></td>
                 <td headers="lo-1 lo-2">6개월</td>
                 <td headers="lo-1 lo-3">1,780</td>
             </tr>
             <tr>
-                <td headers="lo-1" rowspan="4">금융채(AAA)유통수익률 <sub>주2)</sub></td>
+                <td headers="lo-1" rowspan="4">금융채(AAA)유통수익률 <sub><a id="loans-table-2-1" href="#loans-table-2">주2)</a></sub></td>
                 <td headers="lo-1 lo-2">3개월</td>
                 <td headers="lo-1 lo-3">1,629</td>
             </tr>
@@ -143,11 +144,11 @@
             </tr>
         </tbody>
     </table>
-
-    <p id="loans-table-1">※ 기준일자에 대출을 하는 경우, 적용되는 기준금리입니다. 대출금리는 기준금리에 상품종류 및 신용등급 등 기준에 따라 가산금리를 더하여 적용됩니다.</p>
-    <p id="loans-table-2">※ 주1) 기준일자의 2영업일 전 전국은행연합회에서 고시한 금리 적용</p>
-    <p id="loans-table-3">※ 주2) 기준일자의 2영업일 전 한국금융투자협회에서 고시한 금리 적용</p>
-
+    <ul>
+        <li>※ 기준일자에 대출을 하는 경우, 적용되는 기준금리입니다. 대출금리는 기준금리에 상품종류 및 신용등급 등 기준에 따라 가산금리를 더하여 적용됩니다.</li>
+        <li id="loans-table-1">※ <a href="#loans-table-1-1">주1)</a> 기준일자의 2영업일 전 전국은행연합회에서 고시한 금리 적용</li>
+        <li id="loans-table-2">※ <a href="#loans-table-2-1">주2)</a> 기준일자의 2영업일 전 한국금융투자협회에서 고시한 금리 적용</li>
+    </ul>
 
 </body>
 
