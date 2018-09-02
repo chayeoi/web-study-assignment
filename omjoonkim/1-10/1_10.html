@@ -10,7 +10,7 @@
     <h2>비밀번호 찾기</h2>
     <h3>등록한 회원정보 또는 본인인증으로 비밀번호를 찾을 수 있습니다.</h3>
 
-    <form method="GET">
+    <form>
       <h4>등록된 회원정보로 찾기</h4>
       <p>회원 가입 시 등록한 정보를 정확히 입력해주세요.</p>
       <label for="user_id1">아이디1</label>
@@ -19,15 +19,16 @@
       <input type="text" id="user_name" placeholder="이름">
       <label for="user_email">이메일</label>
       <input type="email" id="user_email" placeholder="이메일">
-      <button type="submit">비밀번호 찾기</button>
-
+      <button>비밀번호 찾기</button>
+    </form>
+    <form>
       <h4>본인인증 수단으로 찾기</h4>
       <p>아이디 확인 후 본인인증을 선택해주세요.</p>
       <label for="user_id2">아이디2</label>
       <input type="text" id="user_id2" placeholder="아이디">
-      <button type="submit">확인</button>
-      <button type="button">아이핀 인증</button>
-      <button type="button">휴대폰 본인인증</button>
+      <button>확인</button>
+      <input type="radio" name="identify">아이핀 인증</button>
+      <input type="radio" name="identify">휴대폰 본인인증</button>
     </form>
 
     <p>위 방법으로 아이디를 찾을 수 없는 경우 <a href="">고객센터</a>에 문의해주세요.</p>
