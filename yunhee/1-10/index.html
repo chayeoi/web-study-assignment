@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="kr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>비밀번호 찾기</title>
 </head>
+
 <body>
   <h1>비밀번호 찾기</h1>
   <p>등록한 회원정보 또는 본인인증으로 비밀번호를 찾을 수 있습니다.</p>
 
   <form action="#">
     <h2>등록 된 회원정보로 찾기</h2>
-    <input type="text" placeholder="아이디" name="id">
+    <label for="id_1"></label>
+    <input type="text" placeholder="아이디" name="id" id="id_1">
+    <label for="name"></label>
     <input type="text" placeholder="이름" id="name">
+    <label for="email"></label>
     <input type="text" placeholder="이메일" id="email">
     <input type="submit" value="비밀번호 찾기">
   </form>
 
   <form action="#">
-      <h2>본인인증 수단으로 찾기</h2>
-      <input type="text" placeholder="아이디" name="id2">
-      <button>확인</button>
-      <a href="#" target="_blank">아이핀 인증</a>
-      <a href="#" target="_blank">휴대폰 본인인증</a>
-      <input type="submit" value="비밀번호 찾기">
-    </form>
-  
-    <p>위 방법으로 아이디를 찾을 수 없는 경우 <a href="#">고객센터</a>에 문의주세요.</p>
+    <h2>본인인증 수단으로 찾기</h2>
+    <label for="id_2"></label>
+    <input type="text" placeholder="아이디" name="id2" id="id_2">
+    <button>확인</button>
+    <input type="radio" name="auth" value="i">
+    <input type="radio" name="auth" value="p">
+    <input type="submit" value="비밀번호 찾기">
+  </form>
+
+  <p>위 방법으로 아이디를 찾을 수 없는 경우
+    <a href="#">고객센터</a>에 문의주세요.</p>
 </body>
+
 </html>
