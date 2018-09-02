@@ -19,13 +19,18 @@
         <p>회원 가입 시 등록한 정보를 정확히 입력해주세요.</p>
         <form action="https://formspree.io/korea8378@naver.com" method="post">
             <p>
-                <input type="text" id="user_id" placeholder="아이디" required>
+                <!--<label><input> 짝을 이루어서 쓰자 의미부여 css로 가리면 된다.-->
+                <!--label의 for 속성을 쓰면 클릭시 focus를 줄수있다.-->
+                <label for="user-id-1">아이디</label>
+                <input type="text" name="user_id" id="user-id-1" placeholder="아이디" required>
             </p>
             <p>
-                <input type="text" id="user_name" placeholder="이름" required>
+                <label for="user-name-1">이름</label>
+                <input type="text" name="user_name" id="user-name-1" placeholder="이름" required>
             </p>
             <p>
-                <input type="email" id="user_email" placeholder="이메일" required>
+                <label for="user-email-1">이메일</label>
+                <input type="email" name="user_email" id="user-email-1" placeholder="이메일" required>
             </p>
             <p>
                 <input type="submit" value="비밀번호 찾기">
@@ -36,8 +41,9 @@
         <p>아이디 확인 후 본인인증을 선택해주세요</p>
         <form action="https://formspree.io/korea8378@naver.com" method="post">
             <p>
-                <input type="text" id="user_id" placeholder="아이디" required>
-                <input type="button" value="확인" onclick="">
+                <label for="user-id-2">아이디</label>
+                <input type="text" name="user_id" id="user-id-2" placeholder="아이디" required>
+                <input type="button" id="confirm" value="확인">
             </p>
             <p>
                 <label><input type="radio" name="authentication_type" value="아이핀 인증">아이핀 인증</label>

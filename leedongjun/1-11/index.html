@@ -23,31 +23,34 @@
                 <li><a href="#">ABOUT US</a></li>
             </ul>
         </nav>
-        <p><strong>&lt;!--혼자 공부하게 내버려 두지 않는 프론트엔드 온라인 강의--&gt;</strong></p>
-        <p>{ 프론트엔드 개발 시작하기 CAMP }</p>
-        <ul>
-            <li>#html</li>
-            <li>#css</li>
-            <li>#javascript ES6</li>
-            <li>responsive web</li>
-            <li>css animation</li>
-            <li>wireframe</li>
-        </ul>
-        <p>많고 많은 오라인 강의,완강도 어렵고</p>
-        <p>완강을 해도 곧 기억에서 잊히기 일쑤 입니다</p>
-        <p>작은 프로젝트 단위로 이론과 실습을 완벽히 가져갈</p>
-        <p>패스트캠퍼스 프론트엔드 올라인 강의에 지금 참여하세요!</p>
-        <p><strong>선착순 할인 마감까지 D-<data id="day" value="0">0</data>일<data id="hour" value="0">0</data>시<data id="minute" value="0">0</data>분<data id="second" value="0">0</data>초</strong></p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/045Vj1LlwO8?controls=0" allowfullscreen></iframe>
-        <p>
-            <input id="apply-course" type="button" value="수강신청하기">
-            <input id="consulting" type="button" value="전화상담하기">
-        </p>
     </header>
     <main>
-        <section id="guidance">
-            <h2>안내</h2>
-            <strong>{잠깐!}</strong>
+        <section id="guidance-1">
+            <p><strong>&lt;!--혼자 공부하게 내버려 두지 않는 프론트엔드 온라인 강의--&gt;</strong></p>
+            <h2>{ 프론트엔드 개발 시작하기 CAMP }</h2>
+            <ul>
+                <li>#html</li>
+                <li>#css</li>
+                <li>#javascript ES6</li>
+                <li>responsive web</li>
+                <li>css animation</li>
+                <li>wireframe</li>
+            </ul>
+            <p>많고 많은 오라인 강의,완강도 어렵고</p>
+            <p>완강을 해도 곧 기억에서 잊히기 일쑤 입니다</p>
+            <p>작은 프로젝트 단위로 이론과 실습을 완벽히 가져갈</p>
+            <p>패스트캠퍼스 프론트엔드 올라인 강의에 지금 참여하세요!</p>
+            <p><strong>선착순 할인 마감까지 D-<data id="day" value="0">0</data>일<data id="hour" value="0">0</data>시<data id="minute" value="0">0</data>분<data id="second" value="0">0</data>초</strong></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/045Vj1LlwO8?controls=0" allowfullscreen></iframe>
+            <p>
+                <!--input보다는 button input은 어떠한 정보를 입력받기 위해 씀-->
+                <button id="apply-course" type="button">수강신청하기</button>
+                <button id="consulting" type="button">전화상담하기</button>
+            </p>
+        </section>
+        <section id="guidance-2">
+            <!--제목이 있을 경우 따로 heading을 통하여 제목을 줄 필요가 없다.-->
+            <h2>{잠깐!}</h2>
             <p>강의는 <time datetime="2018-03-20">03/20</time>강사님이 최신 커리귤럼으로 강의를 제작중이니, 조금만 기다려주세요</p>
         </section>
         <section id="introduction">
@@ -99,8 +102,7 @@
             </div>
         </section>
         <section id="curriculum">
-            <h2>커리큘럼 안내</h2>
-            <p><strong>{커리큘럼}</strong></p>
+            <h2>{커리큘럼}</h2>
             <ul>
                 <li>
                     <h3>웹의 디자인과 프로그래밍</h3>
@@ -210,8 +212,7 @@
             <input type="button" id="go-course" value="예제 강의 보러가기">
         </section>
         <section id="recommendation">
-            <h2>추천</h2>
-            <p><strong>이런 분들에게 추천합니다.</strong></p>
+            <h2>이런 분들에게 추천합니다.</h2>
             <ul>
                 <li>
                     <div id="re-content-1">
@@ -239,7 +240,7 @@
         <section id="teacher-introduce">
             <h2>강사 소개</h2>
             <img src="https://cdn.www.fastcampus.co.kr/wp-content/uploads/2018/02/yamoo.jpg" alt="">
-            <h3><cite>#야무(지훈) 강사님</cite></h3>
+            <h3>#야무(지훈) 강사님</h3>
             <h3>#약력</h3>
             <div id="brief-history">
                 <p>현)패스트캠퍼스...</p>
@@ -271,9 +272,11 @@
             </ul>
         </section>
         <aside id="advertising">
+            <h2>광고</h2>
             <div id="advertising-1">
                 <p>모집중 | ~ <time datetime="2018-08-31">8/31</time></p>
-                <p><strong>선착순 100명 <s>28만원</s>27만 원</strong></p>
+                <p><strong>선착순 100명 <s aria-describedby="money">28만원</s>27만 원</strong></p>
+                <p id="money">원래 가격</p>
                 <p><s>{정가 50만원}</s></p>
                 <input type="button" id="apply-course-2" value="수강신청하기">
             </div>
