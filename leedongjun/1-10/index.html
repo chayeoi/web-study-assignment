@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>한빛출판네트워크</h1>
+    <section id="password-find">
+        <h2>비밀번호 찾기</h2>
+        <p>등록한 회원정보 또는 본인인증으로 비밀번호를 찾을수 있습니다.</p>
+        <h3>등록된 회원정보로 찾기</h3>
+        <p>회원 가입 시 등록한 정보를 정확히 입력해주세요.</p>
+        <form action="https://formspree.io/korea8378@naver.com" method="post">
+            <p>
+                <!--<label><input> 짝을 이루어서 쓰자 의미부여 css로 가리면 된다.-->
+                <!--label의 for 속성을 쓰면 클릭시 focus를 줄수있다.-->
+                <label for="user-id-1">아이디</label>
+                <input type="text" name="user_id" id="user-id-1" placeholder="아이디" required>
+            </p>
+            <p>
+                <label for="user-name-1">이름</label>
+                <input type="text" name="user_name" id="user-name-1" placeholder="이름" required>
+            </p>
+            <p>
+                <label for="user-email-1">이메일</label>
+                <input type="email" name="user_email" id="user-email-1" placeholder="이메일" required>
+            </p>
+            <p>
+                <input type="submit" value="비밀번호 찾기">
+            </p>
+        </form>
+
+        <h3>본인인증 수단으로 찾기</h3>
+        <p>아이디 확인 후 본인인증을 선택해주세요</p>
+        <form action="https://formspree.io/korea8378@naver.com" method="post">
+            <p>
+                <label for="user-id-2">아이디</label>
+                <input type="text" name="user_id" id="user-id-2" placeholder="아이디" required>
+                <input type="button" id="confirm" value="확인">
+            </p>
+            <p>
+                <label><input type="radio" name="authentication_type" value="아이핀 인증">아이핀 인증</label>
+                <label><input type="radio" name="authentication_type" value="휴대폰 본인인증">휴대폰 본인인증</label>
+            </p>
+            <p>
+                <input type="submit" value="비밀번호 찾기">
+            </p>
+        </form>
+    </section>
+</body>
+
+</html>
