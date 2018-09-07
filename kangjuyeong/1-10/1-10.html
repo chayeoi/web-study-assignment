@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>비밀번호 찾기 폼</title>
+</head>
+<body>
+    <h1>한빛출판네트워크</h1>
+    <h2>비밀번호 찾기</h2>
+    <p>등록한 회원정보 또는 본인인증으로 비밀번호를 찾을 수 있습니다.</p>
+    <article>
+        <h3>등록된 회원정보로 찾기</h3>
+        <p>회원 가입 시 등록한 정보를 정확히 입력해주세요.</p>
+        <form 
+        action="http://"
+        method="get">
+            <p>
+                <label for="user_id">
+                <input 
+                type="id"
+                name="user_id"
+                id="user_id"
+                required
+                placeholder="아이디"></label>
+            </p>
+            <p>
+                <label for="user_name">
+                <input 
+                type="name"
+                name="user_name"
+                id="user_name"
+                required
+                placeholder="이름"></label>
+            </p>
+            <P>
+            <label for="user_email">
+            <input 
+            type="email"
+            name="user_email"
+            id="user_email"
+            required
+            placeholder="이메일"></label>
+            </P>
+            <button type="submit">비밀번호찾기</button>
+        </form>
+    </article>
+    <article>
+        <h3>본인인증 수단으로 찾기</h3>
+        <p>아이디 확인 후 본인인증을 선택해주세요.</p>
+        <form 
+        action="http://"
+        method="get">
+            <p>
+                <label for="user_id_1">
+                <input 
+                type="id"
+                name="user_id_1"
+                id="user_id_1"
+                placeholder="아이디">
+                </label>
+                <button type="submit">확인</button>
+            </p>
+            
+            <p>
+                <label>
+                <input type="radio" name="Certified" value="ipin">
+                <img src="file:///Users/Kangjuyeong/dev/web-study-assignment/kangjuyeong/1-10/%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%91%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B3%E1%86%BC.png" 
+            alt="아이핀 인증 아이콘">
+                </label>
+            </p>
+            
+            <p>
+                <label>
+                <input type="radio" name="Certified" value="phone" checked>
+                <img src="file:///Users/Kangjuyeong/dev/web-study-assignment/kangjuyeong/1-10/%E1%84%92%E1%85%B2%E1%84%83%E1%85%A2%E1%84%91%E1%85%A9%E1%86%AB%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B3%E1%86%BC.png" 
+            alt="휴대폰 본인인증 아이콘">
+                </label>
+            </p>
+            <button type="submit">비밀번호찾기</button>
+            </p>
+        </form>
+    </article>
+    <p>위 방법으로 아이디를 찾을 수 없는 경우 <a href="#고객센터" target="blank"> 고객센터</a>에 문의해주세요</p>
+</body>
+</html>
