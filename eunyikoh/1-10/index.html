@@ -8,13 +8,13 @@
 </head>
 <body class="find_password">
   <h2>비밀번호 찾기</h2>
-   <form action="https://formspree.io/key9407@naver" method="POST">
     <p>
       등록한 회원정보 또는 본인인증으로 비밀번호를 찾을 수 있습니다.
     </p>
-    <section><!--section과 div 차이는?뭘 쓸지 고민--section 안에 div 가능한가?>
-      <p><strong>등록된 회원정보로 찾기</strong></p><!--strong이 적절한걸까?--> 
+    <section><!--section과 div 차이는?뭘 쓸지 고민 section 안에 div 가능한가?>
+      <p><strong>등록된 회원정보로 찾기</strong></p><!-strong이 적절한걸까?--> 
       <!--id는 하나만 쓰자-->
+      <form action="https://formspree.io/key9407@naver" method="POST">
       <h3>등록된 회원정보로 찾기</h3>
       <p>회원 가입 시 등록한 정보를 정확히 입력해주세요</p>
     <p>
@@ -26,30 +26,31 @@
         <input id="user-name" type="text" placeholder="예) 고은이">
       </p>
       <p>
-          <label for="user-email"></label>
-          <input id="user-email" type="email" placeholder="예) user@example.com">
+          <label for="user_email"></label>
+          <input id="user_email" type="email" placeholder="예) user@example.com">
       </p>
       <button type="button" class="button is-findpassword" disabled>비밀번호 찾기</button>
-
+    </form>
       <p><strong>위 방법으로 아이디를 찾을 수 없는 경우 <a href="#" target="_blank">고객센터</a>에 문의해주세요.</strong></p>
     </section>
     
-    <section><!--section과 div 차이는?뭘 쓸지 고민--section 안에 div 가능한가?>
+    <section><!--section과 div 차이는?뭘 쓸지 고민 section 안에 div 가능한가?>
       <p><strong>등록된 회원정보로 찾기</strong></p> <!-strong이 적절한걸까?--> 
       <!--id는 하나만 쓰자-->
+      <form action="https://formspree.io/key9407@naver" method="POST"></form>
       <h3>본인인증 수단으로 찾기</h3>
       <p>아이디 확인 후 본인인증을 선택해주세요.</p>
     <p>
-      <label for="user-id"></label>
-      <input id="user-id" type="text" placeholder="예) mashup">
+      <label for="user_id"></label>
+      <input id="user_id" type="text" placeholder="예) mashup">
     </p>
       <button type="button" class="button is-confirm">확인</button>
 
     <!--이미지 링크-->
-    <a href=""><img src="https://" alt="아이핀인증"></a>
-    <a href=""><img src="https://" alt="아이핀인증"></a>
+    <a href=""><img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwib8p34oZvdAhWFU7wKHcjCDEAQjRx6BAgBEAU&url=http%3A%2F%2Fwww.eyesmag.com%2F2017%2F08%2F14%2Fstudio-ghibli-miyazaki-hayao-last-work%2F&psig=AOvVaw00JF21UZRdGIHY93wG8yHt&ust=1535941452567442" alt="아이핀인증"></a>
+    <a href=""><img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwib8p34oZvdAhWFU7wKHcjCDEAQjRx6BAgBEAU&url=http%3A%2F%2Fwww.eyesmag.com%2F2017%2F08%2F14%2Fstudio-ghibli-miyazaki-hayao-last-work%2F&psig=AOvVaw00JF21UZRdGIHY93wG8yHt&ust=1535941452567442" alt="아이핀인증"></a>
       <button type="button" class="button is-findpassword" disabled>비밀번호 찾기</button>
-
+    </form>
     
       <p><strong>위 방법으로 아이디를 찾을 수 없는 경우 <a href="#" target="_blank">고객센터</a>에 문의해주세요.</strong></p>
     </section>
