@@ -1,0 +1,61 @@
+body {
+  font-family: 'Spoqa Han Sans';
+  color: #333;
+  line-height: 1.5;
+}
+
+.title {
+  font-weight: 100;
+  font-size: 22.5px;
+}
+
+.title strong {
+  font-weight: 700;
+}
+
+dt {
+  font-weight: 700;
+  font-size: 13.5px;
+}
+
+dd {
+  font-size: 9.75px;
+  font-weight: 300;
+}
+
+.first-paragraph {
+  font-size: 34.5px;
+  font-weight: 400;
+}
+
+.second-paragraph {
+  font-size: 22.5px;
+  font-weight: 700;
+}
+
+.third-paragraph {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.forth-paragraph {
+  font-size: 10.5px;
+  font-weight: 700;
+}
+
+.large-paragraph {
+  font-size: 9px;
+  font-weight: 400;
+}
+
+dd p {
+  white-space: pre-line;
+}
+
+[lang="KR"] {
+  letter-spacing: -0.025em;
+}
+
+[lang="EN"] {
+  letter-spacing: 0;
+}
