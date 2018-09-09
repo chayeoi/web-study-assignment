@@ -6,49 +6,50 @@ body {
 
 .title {
   font-weight: 100;
-  font-size: 22.5px;
+  font-size: 30px;
 }
 
 .title strong {
   font-weight: 700;
 }
 
-dt {
+.subtitle {
   font-weight: 700;
-  font-size: 13.5px;
-}
-
-dd {
-  font-size: 9.75px;
-  font-weight: 300;
+  font-size: 18px;
 }
 
 .first-paragraph {
-  font-size: 34.5px;
+  font-size: 46px;
   font-weight: 400;
 }
 
 .second-paragraph {
-  font-size: 22.5px;
+  font-size: 30px;
   font-weight: 700;
 }
 
 .third-paragraph {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
 }
 
 .forth-paragraph {
-  font-size: 10.5px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 .large-paragraph {
-  font-size: 9px;
+  font-size: 14px;
   font-weight: 400;
 }
 
-dd p {
+.small-paragraph {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.style-desc {
+  font-weight: 300;
   white-space: pre-line;
 }
 
