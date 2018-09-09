@@ -53,10 +53,10 @@ body {
   white-space: pre-line;
 }
 
-[lang="KR"] {
+[lang="ko"] {
   letter-spacing: -0.025em;
 }
 
-[lang="EN"] {
+[lang="en"] {
   letter-spacing: 0;
 }
