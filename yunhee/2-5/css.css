@@ -1,0 +1,58 @@
+body {
+  height: 4096px;
+  margin: 0;
+}
+.bg1 {
+  background-color: gray;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+  width: 1400px;
+  height: 468px;
+}
+.bg2 {
+  background-color: black;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+  width: 1400px;
+  height: 1751px;
+}
+.bg3 {
+  background-color: gray;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+  width: 1400px;
+  height: 1877px;
+}
+img {
+  float: left;
+}
+ul {
+  list-style: none;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.img {
+  position: absolute;
+  top: 342px;
+  left: 141px;
+  width: 1118px;
+}
+
+.img2 {
+  position: absolute;
+  top: 1661px;
+  left: 141px;
+  width: 1118px;
+}
+#two,
+#three {
+  height: 1118px;
+  width: 559px;
+}
+#four {
+  height: 559px;
+  width: 1118px;
+}
