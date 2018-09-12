@@ -1,0 +1,62 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+.recommend-channel-heading, .best-heading {
+  font-size: 18px;
+}
+
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+
+.recommend-channel-list li {
+  position: relative;
+  margin-bottom: 5px;
+  padding-left: 40px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.recommend-channel-list li::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-image: url('https://t1.daumcdn.net/daumtop_chanel/op/20180108015945347');
+  background-size: 36px 36px;
+}
+
+.best-list li {
+  position: relative;
+  margin-bottom: 5px;
+  padding-left: 30px;
+  counter-increment: number;
+  line-height: 1.5;
+}
+
+.best-list li::before {
+  content: counter(number, decimal);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  border-radius: 3px;
+  color: #fff;
+  background: #666;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
