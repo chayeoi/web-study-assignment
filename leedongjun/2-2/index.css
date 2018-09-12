@@ -1,0 +1,55 @@
+.typography-1 {
+    font-family: SpoqaHanSans;
+    font-size: 46px;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: -0.025em;
+}
+
+.typography-2 {
+    font-family: SpoqaHanSans;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    letter-spacing: -0.025em;
+}
+
+.typography-3 {
+    font-family: SpoqaHanSans;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    letter-spacing: -0.025em;
+}
+
+.typography-4 {
+    font-family: SpoqaHanSans;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    letter-spacing: -0.025em;
+}
+
+.typography-5 {
+    font-family: SpoqaHanSans;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    letter-spacing: -0.025em;
+}
+
+.typography-6 {
+    font-family: SpoqaHanSans;
+    font-size: 13px;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: -0.025em;
+}
+
+[lang="KR"] {
+    letter-spacing: 0;
+}
+
+[lang="EN"] {
+    letter-spacing: 1.5;
+}
