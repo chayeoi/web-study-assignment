@@ -16,12 +16,24 @@ ul, ol {
   list-style: none;
 }
 
+.recommend-channel-list {
+  width: 500px;
+}
+
+.recommend-channel-list::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .recommend-channel-list li {
   position: relative;
   margin-bottom: 5px;
   padding-left: 40px;
   height: 36px;
   line-height: 36px;
+  width: 250px;
+  float: left;
 }
 
 .recommend-channel-list li::before {
