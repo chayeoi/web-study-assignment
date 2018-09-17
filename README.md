@@ -6,7 +6,7 @@
 
 ![set-assignment-1](./assets/set-assignment-1.png)
 
-2. fork한 repository의 URL을 복사합니다.(주의! 원본 repository가 아닌 방금 fork한 repository의 URL을 복사해야 합니다!)
+2. fork한 원격 repository의 URL을 복사합니다.(주의: 원본(중앙 원격) repository가 아닌 방금 fork한 원격 repository의 URL을 복사해야 합니다!)
 
 ![set-assignment-2](./assets/set-assignment-2.png)
 
@@ -25,28 +25,30 @@ cd web-study-assignment
 git remote add upstream https://github.com/chayeoi/web-study-assignment.git
 ```
 
-5. 로컬 repository 내에 자신의 영문 이름으로 폴더를 생성합니다.
-
-```bash
-mkdir [영문 이름]
-```
-
 ## 과제 제출하기
 
-1. master 브랜치로부터 새 브랜치를 생성함과 동시에 checkout합니다.
+1. 자신의 영문 이름으로 폴더를 생성합니다. 그 안에 미션 단위로 폴더를 만들어 과제를 업로드합니다. 이때 각 과제 파일명은 index.html로 만들어주세요.
 
-```bash
-git checkout -b feature/1
+```plain
+chanyeon/
+  1-2/
+    index.html
+  1-3/
+    index.html
+  1-4/
+    index.html
+  1-5/
+    index.html
+  1-6/
+    index.html
 ```
-
-2. 자신의 영문 이름으로 생성한 폴더 안에 과제를 업로드합니다.
 
 3. add, commit한 다음, fork한 repository(origin)로 push합니다.
 
 ```bash
 git add .
 git commit -m "feat: Add assignment 1-3"
-git push origin feature/1
+git push origin master
 ```
 
 4. 브라우저에서 fork한 원격 repository로 접속 후 원본 repository에 대한 pull request를 생성합니다.
@@ -56,8 +58,6 @@ git push origin feature/1
 ![submit-assignment-2](./assets/submit-assignment-2.png)
 
 ![submit-assignment-3](./assets/submit-assignment-3.png)
-
-![submit-assignment-4](./assets/submit-assignment-4.png)
 
 ## 코드 리뷰 진행 및 반영하기
 
@@ -75,5 +75,27 @@ git push origin feature/1
 git pull upstream master
 ```
 
-## 벌금 현황
+## 기타
+
+### 벌금 현황
+
+|            |  김찬연  |  이동준  |  강주영  |  고은이  |  이윤희  |  김범준  |  이다민  |
+| ---------- |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |
+| 2018-08-19 |        |  3500  |  3500  |        |        |  3500  |        |
+| 2018-08-26 |        |        |  1000  |  2000  |        | 10000  |        |
+| 2018-09-02 |        |        |  2000  |        |        |  1000  |  2000  |
+| 2018-09-09 |        |  2000  |  1000  |        |        |  4000  |  2000  |
+| 2018-09-16 |        |        |        |        |        |        |        |
+| 2018-09-23 |        |        |        |        |        |        |        |
+| 2018-09-30 |        |        |        |        |        |        |        |
+| 2018-10-07 |        |        |        |        |        |        |        |
+| 2018-10-14 |        |        |        |        |        |        |        |
+
+### 강의에서 다루지 않은 내용(추후 다룰 예정)
+
+#### IR 기법
+
+#### 숨김 콘텐츠 처리하기
+
+#### 폰트
 
