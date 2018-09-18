@@ -31,9 +31,12 @@
      height: 50px;
  }
  
- .link-text,
- img:link:hover:focus:active:visited {
-     color: black;
+ .link-text:link,
+ .link-text:hover,
+ .link-text:focus,
+ .link-text:active,
+ .link-text:visited {
+     color: lightblue;
      text-decoration: none;
  }
  
