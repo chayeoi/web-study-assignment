@@ -1,21 +1,23 @@
  #recommend-chanel {
-     border: 0.01em solid;
-     width: 30em;
-     height: 18em;
+     border: 1px solid;
+     width: 450px;
+     height: 250px;
      float: left;
-     margin: 0.5em;
+     margin: 10px;
+     box-sizing: border-box;
  }
  
  #best {
-     border: 0.01em solid;
-     width: 30em;
-     height: 18em;
+     border: 1px solid;
+     width: 450px;
+     height: 250px;
      float: left;
-     margin: 0.5em;
+     margin: 10px;
+     box-sizing: border-box;
  }
  
  h2 {
-     margin-left: 1em;
+     margin-left: 10px;
  }
  
  ul {
@@ -23,7 +25,9 @@
  }
  
  .chanel-list li {
-     display: inline-block;
+     float: left;
+     width: 200px;
+     height: 50px;
  }
  
  .chanel-list li a>img {
@@ -46,45 +50,50 @@
  
  .best-list li:nth-child(1)::before {
      content: '1';
+     margin-right: 5px;
      background-color: gray;
-     display: inline-block;
-     width: 1em;
-     height: 1.4em;
+     float: left;
+     width: 20px;
+     height: 20px;
      text-align: center;
  }
  
  .best-list li:nth-child(2)::before {
      content: '2';
+     margin-right: 5px;
      background-color: gray;
-     display: inline-block;
-     width: 1em;
-     height: 1.4em;
+     float: left;
+     width: 20px;
+     height: 20px;
      text-align: center;
  }
  
  .best-list li:nth-child(3)::before {
      content: '3';
+     margin-right: 5px;
      background-color: gray;
-     display: inline-block;
-     width: 1em;
-     height: 1.4em;
+     float: left;
+     width: 20px;
+     height: 20px;
      text-align: center;
  }
  
  .best-list li:nth-child(4)::before {
      content: '4';
+     margin-right: 5px;
      background-color: gray;
-     display: inline-block;
-     width: 1em;
-     height: 1.4em;
+     float: left;
+     width: 20px;
+     height: 20px;
      text-align: center;
  }
  
  .best-list li:nth-child(5)::before {
      content: '5';
+     margin-right: 5px;
      background-color: gray;
-     display: inline-block;
-     width: 1em;
-     height: 1.4em;
+     float: left;
+     width: 20px;
+     height: 20px;
      text-align: center;
  }
