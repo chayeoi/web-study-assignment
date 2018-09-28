@@ -1,0 +1,66 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  padding-top: 40px;
+  height: 777px;
+  background: url('assets/bg.png') no-repeat;
+  background-size: 100%;
+}
+
+.nexon-title {
+  width: 485px;
+  height: 231px;
+  margin: 0 auto 50px;
+  padding-top: 231px;
+  overflow: hidden;
+  background: url('assets/nexon-title.png') no-repeat;
+}
+
+.youtube {
+  display: block;
+  margin: 0 auto;
+}
+
+.planet-left {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  width: 71px;
+  height: 68px;
+  background: url('assets/planet-left.png') no-repeat;
+}
+
+.planet-right {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  width: 91px;
+  height: 84px;
+  background: url('assets/planet-right.png') no-repeat;
+}
+
+.robot-left {
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+  width: 303px;
+  height: 294px;
+  background: url('assets/robot-left.png') no-repeat;
+}
+
+.robot-right {
+  position: absolute;
+  bottom: 20%;
+  right: 15%;
+  width: 239px;
+  height: 314px;
+  background: url('assets/robot-right.png') no-repeat;
+}
