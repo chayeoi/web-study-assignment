@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.gallery {
+  width: 1400px;
+  float: left;
+  font-size: 0px;
+}
+img {
+  width: 350px;
+}

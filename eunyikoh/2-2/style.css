@@ -1,0 +1,58 @@
+aside{
+  left: margin 0;
+  text-align: letf;
+}
+div:nth-child(1){
+  font-family :   SpoqaHanSans ;
+font-size :   46px ;
+font-weight :   400 ;
+color :   #333333 ;
+letter-spacing :   - 0.025em ; (KR)
+letter-spacing :   0 ; (EN)
+line-height :   1.5 ;
+}
+div:nth-child(2){
+  font-family :   SpoqaHanSans ;
+font-size :   30px ;
+font-weight :   700 ;
+color :   #333333 ;
+letter-spacing :   - 0.025em ; (KR)
+letter-spacing :   0 ; (EN)
+line-height :   1.5 ;
+}
+div:nth-child(3){
+  font-family :   SpoqaHanSans ;
+  font-size :   24px ;
+  font-weight :   700 ;
+  color :   #333333 ;
+  letter-spacing :   - 0.025em ; (KR)
+  letter-spacing :   0 ; (EN)
+  line-height :   1.5 ;
+}
+div:nth-child(4){
+  font-family :   SpoqaHanSans ;
+  font-size :   14px ;
+  font-weight :   400 ;
+  color :   #666666 ;
+  letter-spacing :   - 0.025em ; (KR)
+  letter-spacing :   0 ; (EN)
+  line-height :   1.5 ;
+}
+div:nth-child(5){
+  font-family :   SpoqaHanSans ;
+font-size :   14px ;
+font-weight :   400 ;
+color :   #666666 ;
+letter-spacing :   - 0.025em ; (KR)
+letter-spacing :   0 ; (EN)
+line-height :   1.5 ;
+}
+div:nth-child(6){
+  font-family :   SpoqaHanSans ;
+  font-size :   13px ;
+  font-weight :   400 ;
+  color :   #666666 ;
+  letter-spacing :   - 0.025em ; (KR)
+  letter-spacing :   0 ; (EN)
+  line-height :   1.5 ;
+}
