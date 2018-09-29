@@ -1,0 +1,98 @@
+  * { 
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'Spoqa Han Sans', 'Sans-serif';
+  line-height: 1.5;
+  width: 1400px;
+  color: #333333;
+}
+
+.container {
+	margin: 17px;
+	padding: 109px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0px 5px 10px rgba(102,102,102,0.11);
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'lato', 'sans-serif';
+  font-weight: 400;
+  text-transform: uppercase
+  padding-bottom: 10px;
+
+}
+
+h1 strong {
+  font-weight: 900;
+  font-style: normal;
+}
+
+.block {
+  margin-top: 40px;
+}
+
+.block div:first-child {
+  display: inline-block;
+  width: 26%;
+  vertical-align: middle;
+}
+
+.block div:last-child {
+  display: inline-block;
+  width: 73%;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+ul {
+  font-size: 14px;
+  color: #666666;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.h1 {
+  font-size: 46px;
+  border-left: 1px #666666;
+}
+
+.h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 700;
+
+}
+
+.h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.p1 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.p2 {
+  font-size: 13px;
+}
+
+
+[lang="ko"] {
+  letter-spacing: -0.025em;
+}
