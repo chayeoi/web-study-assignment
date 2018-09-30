@@ -38,7 +38,6 @@ body {
 }
 
 .shole {
-  float: left;
   position: absolute;
   top: 50%;
   left: 10%;
@@ -49,7 +48,6 @@ body {
 }
 
 .christian-dior {
-  float: left;
   position: absolute;
   top: 63%;
   left: 29.5%;
@@ -59,7 +57,6 @@ body {
 }
 
 .model-1 {
-  float: left;
   position: absolute;
   top: 38%;
   left: 36%;
@@ -69,7 +66,6 @@ body {
 }
 
 .model-2 {
-  float: left;
   position: absolute;
   top: 38%;
   right: 35.5%;
@@ -79,7 +75,6 @@ body {
 }
 
 .bag {
-  float: left;
   position: absolute;
   top: 50%;
   right: 10%;
