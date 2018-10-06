@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="a11y-hidden">Calendar</h1>
+    <div class="left">
+      <h2 class="title">FRIDAY APRIL 3RD</h2>
+      <div class="reminder">
+        <p id="reminders"><strong>Reminders</strong></p>
+        <ul aria-labelledby="reminders">
+          <li>Make an awesome design.</li>
+          <li>Amaze the world :D</li>
+        </ul>
+      </div>
+      <button type="button" class="left-sidebar-toggle-button">
+        <span class="rectangle"></span>
+        <span class="rectangle"></span>
+        <span class="rectangle"></span>
+      </button>
+      <button type="button" class="right-sidebar-toggle-button">
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+      </button>
+    </div>
+    <div class="right">
+      <h3 class="subtitle">2015</h3>
+      <div class="table-wrapper">
+        <ol class="months">
+          <li>JAN</li>
+          <li>FEB</li>
+          <li>MAR</li>
+          <li>APR</li>
+          <li>MAY</li>
+          <li>JUN</li>
+          <li>JUL</li>
+          <li>AUG</li>
+          <li>SEP</li>
+          <li>OCT</li>
+          <li>NOV</li>
+          <li>DEC</li>
+        </ol>
+        <p class="calendar-summary a11y-hidden">
+          Calendar for April, 2015
+        </p>
+        <table class="calendar-table" aria-describedby="calendar-summary">
+          <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+          </colgroup>
+          <thead>
+            <th id="mon" scope="col">MON</th>
+            <th id="tue" scope="col">TUE</th>
+            <th id="wed" scope="col">WED</th>
+            <th id="thu" scope="col">THU</th>
+            <th id="fri" scope="col">FRI</th>
+            <th id="sat" scope="col">SAT</th>
+            <th id="sun" scope="col">SUN</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td><div>1</div></td>
+              <td><div>2</div></td>
+              <td><div>3</div></td>
+              <td><div>4</div></td>
+              <td><div>5</div></td>
+            </tr>
+            <tr>
+              <td><div>6</div></td>
+              <td><div>7</div></td>
+              <td><div>8</div></td>
+              <td><div>9</div></td>
+              <td><div>10</div></td>
+              <td><div>11</div></td>
+              <td><div>12</div></td>
+            </tr>
+            <tr>
+              <td><div>13</div></td>
+              <td><div>14</div></td>
+              <td><div>15</div></td>
+              <td><div>16</div></td>
+              <td><div>17</div></td>
+              <td><div>18</div></td>
+              <td><div>19</div></td>
+            </tr>
+            <tr>
+              <td><div>20</div></td>
+              <td><div>21</div></td>
+              <td><div>22</div></td>
+              <td><div>23</div></td>
+              <td><div>24</div></td>
+              <td><div>25</div></td>
+              <td><div>26</div></td>
+            </tr>
+            <tr>
+              <td><div>27</div></td>
+              <td><div>28</div></td>
+              <td><div>29</div></td>
+              <td><div>30</div></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <button type="button" class="more-button"></button>
+    </div>
+  </div>
+</body>
+</html>
