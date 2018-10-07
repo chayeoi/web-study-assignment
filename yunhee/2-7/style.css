@@ -1,0 +1,48 @@
+.container {
+  position: absolute;
+  width: 1280px;
+  height: 518px;
+  top: 0;
+}
+
+.container img {
+  position: absolute;
+}
+
+#title {
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%) scale(0.75);
+}
+
+#planet_left {
+  transform: scale(0.75);
+  top: 158px;
+  left: 211px;
+}
+
+#planet_right {
+  transform: scale(0.75);
+  top: 36px;
+  right: 218px;
+}
+
+#robot_left {
+  transform: scale(0.75);
+  left: 185px;
+  bottom: 14px;
+  z-index: 1000;
+}
+
+#robot_right {
+  transform: scale(0.75);
+  right: 255px;
+  bottom: 4px;
+  z-index: 1000;
+}
+
+#youtube {
+  left: -25px;
+  top: 168px;
+  transform: translateX(50%) scale(0.65);
+}

@@ -1,0 +1,151 @@
+/* Switcher UI 디자인 
+   활성화 색상: #0f94fa
+   트랜지션 타이밍 함수: cubic-bezier(0.785, 0.135, 0.150, 0.860)
+*/
+
+.switcher {
+  margin: 1.5em 0;
+  font-size: 16px;
+}
+
+/* 크기 설정 클래스 */
+.switcher.is-xsmall {
+  font-size: 12px;
+}
+.switcher.is-small {
+  font-size: 14px;
+}
+.switcher.is-large {
+  font-size: 18px;
+}
+.switcher.is-xlarge {
+  font-size: 20px;
+}
+
+/* 초기 상태(Initial State) ------------------------------- */
+
+.switcher input[type="checkbox"] {
+  position: absolute !important;
+  z-index: 10;
+  /* 
+    [미션 1] 체크박스 컨트롤의 불투명도롤 조정해 투명하게 만들어 봅니다. 
+   */
+  opacity: 0;
+}
+
+.switcher label {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-left: 3.5em;
+  font-weight: bold;
+  color: #98afc7;
+}
+
+.switcher *,
+.switcher *::before,
+.switcher *::after {
+  box-sizing: border-box;
+  /* 
+    [미션 2] 트랜지션을 설정해주세요.
+    all
+    0.35s
+    cubic-bezier(0.785, 0.135, 0.150, 0.860)
+   */
+  transition: all 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.switcher label::before {
+  content: "";
+  position: absolute;
+  top: -0.45em;
+  left: 0;
+  width: 3em;
+  height: 2em;
+  background: #e3edfa;
+  border-radius: 3em;
+  box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
+}
+
+.switcher label::after {
+  content: "";
+  position: absolute;
+  top: -0.3em;
+  left: 0.1em;
+  width: 1.75em;
+  height: 1.75em;
+  border-radius: 3em;
+  background: #fff;
+}
+
+/* 종료 상태(Final State) --------------------------------- */
+
+.switcher input:checked + label {
+  color: #253467;
+}
+
+.switcher input:checked + label::before {
+  box-shadow: inset 0 0 0 2em #0f94fa;
+}
+
+.switcher input:checked + label::after {
+  /*
+    [미션 3] 스위치 인디케이터가 왼쪽으로 이동하도록 설정해봅니다.
+   */
+  left: 1.1em;
+}
+
+/* 포커스 상태(Focus State) --------------------------------- */
+
+.switcher input:focus + label::before {
+  /*
+    [미션 4] 포커스 상태가 되면 박스 그림자를 안쪽(inset) 방향으로 
+    #d0d0d0 색상이 되도록 설정해봅니다.
+   */
+  box-shadow: inset 0 0 0 2em #d0d0d0;
+}
+
+.switcher input:checked:focus + label::before {
+  box-shadow: inset 0 0 0 2em #0f94fa;
+  border: 1px solid #0f64da;
+}
+
+/* ------------------------------------------------------ */
+
+/* 데모 시연을 위한 레이아웃 설정 */
+body {
+  margin: 5rem;
+}
+
+.size-diff {
+  margin-top: 5rem;
+  border-top: 1px solid #e3edfb;
+  padding-top: 5rem;
+}
+
+.headline.is-2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.headline.is-3 {
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #a3adab;
+}
+
+.size-diff .switcher {
+  margin-bottom: 30px;
+}
+
+/* 접근성(accessibility, a11y) 감춤 */
+.a11y-hidden {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
