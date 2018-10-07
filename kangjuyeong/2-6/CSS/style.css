@@ -1,0 +1,59 @@
+
+.center-point{
+  width: 600px;
+  height : 600px;
+  background-image: url(https://s26.postimg.cc/luitbv5tl/bg-rd.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img1{
+  position: absolute;
+  left: 10%;
+  top: 24%;
+}
+
+.img2{
+  position: absolute;
+  right: 10%;
+  top: 24%;
+}
+
+.img3{
+  position: relative;
+  left: 50%;
+  top: -28%;
+}
+
+.img4{
+  position: relative;
+  left: 40%;
+  top: 13%;
+}
+
+.img5{
+  position: relative;
+  left: 0px;
+  bottom: -150px;
+}
+
+.img6{
+  position: relative;
+  left: 89px;
+  top: 119px;
+}
+
+.img7{
+  position: relative;
+  left: -401px;
+  top: 66px;
+}
+
+.img8{
+  position: relative;
+  left: 53%;
+  top: -16%;
+}

@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+	width: 1920px;
+	height: 777px;
+}
+
+body #bg {
+		margin 0;
+		background: url("https://s15.postimg.cc/bn4job2i3/image.png") no-repeat;
+		width: 1920px;
+		height: 777px;
+		background-size: contain;
+		position: relative;
+		
+}
+
+#background {
+}
+
+#youtube {
+	position: absolute;
+	top : 331.5px;
+	left: 627px;
+}
+
+#nexon_title {
+	position: absolute;
+	top : 53px;
+	left: 718px;
+}
+
+#planet-left {
+	position: absolute;
+	top : 327px;
+	left: 245px;
+}
+#planet-right{
+	position: absolute;
+	top : 61px;
+	left: 1475px;
+}
+#robot-left{
+	position: absolute;
+	top : 350px;
+	left: 385px;
+	z-index: 100;
+}
+#robot-right {
+	position: absolute;
+	top : 380px;
+	left: 1256px;
+	z-index: 100;
+}
