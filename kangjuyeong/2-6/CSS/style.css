@@ -1,59 +1,77 @@
-
-.center-point{
-  width: 600px;
-  height : 600px;
-  background-image: url(https://s26.postimg.cc/luitbv5tl/bg-rd.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+.container {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 1400px;
+  height: 900px;
+  background: url('../images/bag.png');
 }
 
-.img1{
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.left {
   position: absolute;
-  left: 10%;
-  top: 24%;
+  background: url('../images/shole.png') no-repeat;
+  width: 160px;
+  height: 230px;
+  margin: 338px 0 0 168px;
 }
 
-.img2{
+.logobg {
   position: absolute;
-  right: 10%;
-  top: 24%;
+  background: url('../images/BG.png') no-repeat;
+  width: 558px;
+  height: 426px;
+  margin: 234px 448px 240px 394px;
 }
 
-.img3{
-  position: relative;
-  left: 50%;
-  top: -28%;
+.ChristianDior {
+  position: absolute;
+  background: url('../images/Christian\ Dior.png');
+  width: 136px;
+  height: 18px;
+  margin: 568px 0 0 413px;
 }
 
-.img4{
-  position: relative;
-  left: 40%;
-  top: 13%;
+.c {
+  position: absolute;
+  background: url('../images/C.png');
+  width: 53px;
+  height: 62px;
+  margin: 319px 0 0 674px;
 }
 
-.img5{
-  position: relative;
-  left: 0px;
-  bottom: -150px;
+.d {
+  position: absolute;
+  background: url('../images/D.png');
+  width: 69px;
+  height: 61px;
+  margin: 552px 0 0 669px;
 }
 
-.img6{
-  position: relative;
-  left: 89px;
-  top: 119px;
+.symbol {
+  position: absolute;
+  background: url('../images/symbol.png');
+  width: 30px;
+  height: 20px;
+  margin: 449px 0 0 684px;
+  z-index: 100;
 }
 
-.img7{
-  position: relative;
-  left: -401px;
-  top: 66px;
+.per1 {
+  position: absolute;
+  background: url('../images/model-1.png');
+  width: 145px;
+  height: 311px;
+  margin: 369px 0 0 518px;
 }
 
-.img8{
-  position: relative;
-  left: 53%;
-  top: -16%;
+.per2 {
+  position: absolute;
+  background: url('../images/model-2.png');
+  width: 153px;
+  height: 297px;
+  margin: 349px 0 0 725px;
 }
