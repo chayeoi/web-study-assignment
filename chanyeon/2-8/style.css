@@ -401,7 +401,7 @@ caption.a11y-hidden {
 }
 
 .left {
-  background: linear-gradient(
+  background: #8bc34a linear-gradient(
     to right,
     #78a840 0, #78a840 5.9%,
     #8bc34a 5.9%, #8bc34a
