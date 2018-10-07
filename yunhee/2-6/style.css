@@ -1,0 +1,55 @@
+.left,
+.right {
+  position: relative;
+  float: left;
+  width: 262px;
+  height: 426px;
+}
+
+.left img,
+.right img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.middle {
+  position: relative;
+  float: left;
+  width: 600px;
+  height: 426px;
+}
+
+.middle img {
+  position: absolute;
+}
+
+.component-2 {
+  left: 107px;
+  top: 127px;
+}
+
+.component-3 {
+  left: 330px;
+  top: 117px;
+}
+
+.component-4 {
+  top: 310px;
+}
+
+.component-5 {
+  left: 275px;
+  top: 193px;
+}
+
+.component-6 {
+  left: 262px;
+  top: 63px;
+}
+
+.component-7 {
+  left: 255px;
+  top: 296px;
+}

@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Gotham-book";
+  font-size: 16px;
+  background: #c1f9a7;
+}
+a {
+  text-decoration: none;
+  color: #808080;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+}
+
+.a11y-hidden {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("https://cdn.rawgit.com/ApplicationCraft/applicationcraft.com/4f50f95b/source/fonts/gotham-book-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Gotham-light";
+  src: url("https://cdn.rawgit.com/ApplicationCraft/applicationcraft.com/4f50f95b/source/fonts/gotham-light-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Gotham-medium";
+  src: url("https://cdn.rawgit.com/ApplicationCraft/applicationcraft.com/4f50f95b/source/fonts/gotham-medium-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.contain {
+  position: relative;
+  margin: 0 auto;
+  width: 1750px;
+  height: 1000px;
+  background: #78a840;
+  box-sizing: border-box;
+}
+.bg_left,
+.bg_right {
+  float: left;
+  position: relative;
+}
+/*배경 설정*/
+.bg_left {
+  width: 850px;
+  height: 1000px;
+  margin-left: 50px;
+  background: #8bc34a;
+  box-shadow: 5px 0 10px 1px rgba(128, 128, 128, 0.4);
+  color: white;
+}
+.bg_right {
+  width: 850px;
+  height: 1000px;
+  background: #fff;
+  font-family: "Gotham-light";
+}
+/*왼쪽 메뉴설정*/
+.menu {
+  position: absolute;
+  top: 54px;
+  left: 100px;
+}
+.more {
+  position: absolute;
+  top: 54px;
+  right: 50px;
+}
+
+.title {
+  margin: 327px 0 0 83px;
+  font-family: "Gotham-light";
+  font-size: 87px;
+}
+.reminder {
+  margin: 193px 0 0 83px;
+  font-family: "Gotham-light";
+  font-size: 32px;
+}
+.reminder p {
+  width: 80%;
+  line-height: 1.5;
+  border-bottom: 1px solid #fff;
+}
+.rm_list {
+  margin-top: 20px;
+}
+.rm_list label {
+  line-height: 1.5;
+  vertical-align: top;
+}
+input[type="checkbox"] + label::before {
+  display: inline-block;
+  margin-right: 20px;
+  content: "";
+  width: 45px;
+  height: 45px;
+  background: url(https://s8.postimg.cc/btkvda7d1/Base.png) no-repeat;
+}
+input[type="checkbox"]:checked + label::before {
+  background-image: url("https://s8.postimg.cc/yv1gj1u5x/Check.png");
+}
+/*오른쪽 설정*/
+.calendar_title {
+  float: right;
+  margin: 50px 50px 0 0;
+  font-size: 60px;
+  color: #808080;
+}
+.calendar {
+  margin: 354px 85px 0;
+}
+.calendar ul {
+  width: 730px;
+  height: 30px;
+}
+.calendar li a {
+  float: left;
+  margin-right: 14px;
+  line-height: 40px;
+  font-size: 20px;
+  color: #bfbfbf;
+}
+.calendar li:last-child {
+  margin-right: 0px;
+}
+.calendar li.active a {
+  font-size: 30px;
+  font-family: Gotham-Book;
+  vertical-align: top;
+  color: #808080;
+  line-height: 1;
+}
+.calendar_main {
+  margin: 20px 60px 0;
+  width: 750px;
+  font-family: Gotham-light;
+  color: #808080;
+  font-size: 30px;
+  text-align: center;
+}
+.calendar_main a {
+  display: block;
+  margin: 0 20px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  font-family: Gotham-book;
+}
+.calendar_main tr {
+  height: 80px;
+}
+.calendar_main th,
+.calendar_main td {
+  width: 100px;
+}
+.calendar_main a.today {
+  color: white;
+  background: #8bc34a;
+  border-radius: 10px;
+}
+.calendar_main a.data {
+  border: 3px solid #dcedc8;
+  border-radius: 10px;
+}
+.add_btn {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 40px;
+  bottom: 40px;
+}
