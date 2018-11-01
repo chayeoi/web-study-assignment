@@ -1,0 +1,43 @@
+    body {
+        font-family: 'SpoqaHanSans', 나눔고딕, serif;
+        color: #333333;
+        letter-spacing: -0.025em;
+    }
+    
+    .typography-1 {
+        font-size: 46px;
+        font-weight: 400;
+    }
+    
+    .typography-2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .typography-3 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .typography-4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .typography-5 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .typography-6 {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    [lang="KR"] {
+        letter-spacing: 0;
+    }
+    
+    [lang="EN"] {
+        letter-spacing: 1.5;
+    }
