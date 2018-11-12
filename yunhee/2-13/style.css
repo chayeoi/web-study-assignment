@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+}
+
+.video-wrap,
+#bg-video{
+  width: 1680px;
+  height: 940px;
+}
+
+.video-wrap #bg-video iframe {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+}
+
+.video-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  position: absolute;
+  display: flex;
+  height: inherit;
+  top: 0px;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+
+
+ul{
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+
+.nav ul li {
+  margin-left: 30px;
+}
+
+.nav ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.service-desc {
+  position: relative;
+  top: 150px;
+  color: #ffffff;
+}
+
+.service-desc h1{
+  font-size: 120px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0;
+}
+
+.service-desc ul {
+  text-align: center;
+  margin: 0 0;
+}
+
+.service-desc ul li:nth-of-type(2) h3:before,
+.service-desc ul li:nth-of-type(3) h3:before{
+  content: "/ ";
+  color: #20bebf;
+}
+h3 {
+  margin: 0 0;
+}
+
+.service-desc ul li {
+  font-size: 38px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 2px;
+}
+
+.is-play {
+  position: relative;
+  background: url("https://i.postimg.cc/hjkVrd8m/icon-play.png") no-repeat;
+  border: none;
+  width: 54px;
+  height: 50px;
+  top: 300px;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.call-to-action p {
+  width: 737px;
+  height: 134px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 36px;
+  color: #595d7b;
+  font-weight: bold;
+  text-align: center;
+}
+
+.call-to-action button {
+  color: #ffffff;
+  background-color: #22cfd1;
+  width: 282px;
+  height: 48px;
+  border-radius: 24px;
+  margin: 10px 0;
+}
+
+.call-to-action div {
+  display: flex;
+  justify-content: center;
+  width: 1687px;
+  padding: 40px 0;
+  background-image: linear-gradient(#ffffff 50%, #eeeff4 50%);
+}
