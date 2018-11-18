@@ -827,6 +827,20 @@ body.show-grid::before {
   transform: translate(-50%);
 }
 
+.banners__women-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background-color .5s;
+}
+
+.banners__women-button:hover::after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .banners__collection {
   float: left;
   width: 620px;
@@ -857,6 +871,20 @@ body.show-grid::before {
 .banners__collection-button {
   top: 173px;
   right: 67px;
+}
+
+.banners__collection-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background-color .5s;
+}
+
+.banners__collection-button:hover::after {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .products {
@@ -1125,14 +1153,157 @@ body.show-grid::before {
   border-radius: 4px;
 }
 
+.blog-post__item-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.blog-post__item-content {
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 .blog-post__item:nth-child(1) .blog-post__item-category {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   color: #b8b9bd;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 2px;
 }
 
+.blog-post__item:nth-child(1) .blog-post__item-content {
+  margin-bottom: 30px;
+  color: #5b5d69;
+}
+
 .blog-post__item:nth-child(2) {
   background: url('assets/blog/life.jpg') no-repeat;
+}
+
+.blog-post__item:nth-child(3) {
+  background: #fff url('assets/blog/travel.jpg') no-repeat;
+}
+
+.blog-post__item-elapsed-time {
+  display: flex;
+  align-items: center;
+  color: #adaeb4;
+  font-size: 11px;
+}
+
+.blog-post__item-elapsed-time::before {
+  content: '';
+  display: block;
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+  background: url('assets/icons/Icon-clock.svg') no-repeat;
+}
+
+.blog-post__item:nth-child(2) .blog-post__item-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 25px;
+  margin-bottom: 25px;
+  color: #fff;
+  background-color: #e36556;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.blog-post__item:nth-child(2) .blog-post__item-title {
+  color: #fff;
+}
+
+.blog-post__item:nth-child(2) .blog-post__item-content {
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.blog-post__item-comment-count {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 11px;
+}
+
+.blog-post__item-comment-count::before {
+  content: '';
+  display: block;
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+  background: url('assets/icons/Icon-comments.svg') no-repeat;
+}
+
+.blog-post__item:nth-child(3) .blog-post__item-category {
+  margin-bottom: 120px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.blog-post__item:nth-child(3) .blog-post__item-title {
+  color: #fff;
+}
+
+.blog-post__item-bg {
+  height: 217px;
+}
+
+.blog-post__item-author-info {
+  display: flex;
+  align-items: center;
+  height: 53px;
+  color: rgba(60, 61, 72, 255);
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.blog-post__item-author-info::before {
+  content: '';
+  display: block;
+  width: 33px;
+  height: 33px;
+  margin-right: 10px;
+  background: url('assets/blog/jared-paul-stern.png') no-repeat;
+}
+
+.footer__former {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.footer__main-categories {
+  display: flex;
+  justify-content: space-between;
+  width: 410px;
+}
+
+.footer__main-category-name {
+  margin-bottom: 20px;
+  color: #3c3d48;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.footer__sub-categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 165px;
+  color: #adaeb4;
+  font-size: 12px;
 }
