@@ -1,0 +1,67 @@
+#calendar {
+  font-size: 60px;
+  color: rgb(128,128,128);
+  text-align: left;
+  width: 128px;
+  height: 44px;
+  margin-bottom: 258px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.months {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: rgb(191,191,191);
+  margin-top: 258px;
+  margin-bottom: 40px;
+  margin-left: 85px;
+  width: 730px;
+  height: 22px;
+}
+
+.months strong {
+  font-size: 24px;
+  color: rgb(130,130,130);
+
+}
+
+/*  */
+
+table {
+  color: rgb(128, 128, 128);
+  width: 750px;
+  height: 419px;
+  margin-top: 39px;
+  margin-left: 85px;
+  text-align: center;
+}
+
+table th {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.table col {
+  width: 100px;
+}
+
+.table td div {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.table td div:hover {
+  background-color: #8bc34a;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* border-collapse: collapse; */

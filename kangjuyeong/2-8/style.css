@@ -396,6 +396,8 @@ ul, ol {
 }
 
 .right {
+  color: #fff;
+
 
 }
 
@@ -479,4 +481,19 @@ ul, ol {
   margin-bottom: 5px;
   background-color: #fff;
   border-radius: 50%;
+}
+
+.more-button {
+  background: #8bc342 url('assets/add@2x.png') 50% / 32px no-repeat;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  background-origin: 50px;
+  right: 50px;
+  box-shadow: 5px 0 20px 5px #eee;
+  
+}
+
+
 }
