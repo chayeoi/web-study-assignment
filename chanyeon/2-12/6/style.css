@@ -387,7 +387,7 @@ template {
 
 /* Set default font-family. */
 body {
-  color: #FD9826;
+  color: #159687;
   font-family: NanumBarunGothic, sans-serif;
   font-weight: 500;
 }
@@ -455,21 +455,21 @@ body.show-grid::before {
 .window {
   width: 1100px;
   height: 580px;
-  background-color: #FD9826;
+  background-color: #159687;
   border-radius: 10px;
 }
 
 .window-head {
   display: flex;
   padding: 12px;
-  border-bottom: 1px solid #FECC93;
+  border-bottom: 1px solid #167668;
 }
 
 .circle {
   width: 10px;
   height: 10px;
   margin-right: 6px;
-  background-color: #FECC93;
+  background-color: #167668;
   border-radius: 50%;
 }
 
@@ -501,6 +501,7 @@ body.show-grid::before {
   display: flex;
   flex-grow: 1;
   margin-bottom: 2px;
+  background-color: #FFF;
 }
 
 .main, .advertisement, .related-links {
