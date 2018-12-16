@@ -450,93 +450,78 @@ body.show-grid::before {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: #fd9827;
 }
 
 .window {
-  display: flex;
-  flex-direction: column;
   width: 1100px;
-  background-color: #fd9827;
+  height: 580px;
+  background-color: #f0f0f0;
   border-radius: 10px;
-  box-shadow: 0 0 1px 1px #dfdfdf;
-  margin: 14px;
 }
 
 .window-head {
   display: flex;
-  border-bottom: 1px solid #fecc93;
   padding: 12px;
+  border-bottom: 1px solid #d0d0d0;
 }
 
 .circle {
-  align-items: center;
   width: 10px;
   height: 10px;
-  border-radius: 6px;
-  background-color: #fecc93;
   margin-right: 6px;
+  background-color: #cdcdcf;
+  border-radius: 50%;
 }
+
+
 .window-body {
   display: flex;
-  flex-direction: column;
   padding: 12px;
-  height: 50vh;
 }
 
-.window-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  margin-bottom: 2px;
-  padding: 16px;
+.image-wrapper {
+  position: relative;
+  width: 50%;
+  height: 512px;
+  overflow: hidden;
 }
 
-.nav-list {
+.dieter-rams-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+.quote {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #fff;
 }
 
-.nav-item {
-  margin: 0 5px;
-}
-.title {
-  font-size: 28px;
-  font-weight: 700;
+.paragraph {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.block1 {
-  background-color: white;
-  padding: 20px;
-    width: 20vh;
-
-  
+.paragraph span {
+  font-size: 16px;
 }
 
-.block2 {
-  background-color: white;
-  margin: 0 2px;
-  padding: 20px;
-}
-.block3 {
-  background-color: white;
-  padding: 20px;
-    width: 20vh;
-
-}
-.content-block {
-  display: flex;
-  flex-grow: 1;
-
+.author {
+  font-size: 14px;
+  color: #a3a3a3;
 }
 
-.footer {
-  background-color: #FFF;
-  padding: 16px;
-  margin-top: 2px;
+.author::before {
+  content: '- ';
 }
 
-p {
-  line-height: 1.5em;
+.author::after {
+  content: ' -';
 }
