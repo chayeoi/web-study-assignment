@@ -1,0 +1,61 @@
+화면에 표시되는 caption의 공간 제거를 위한 설정
+caption.a11y-hidden {
+  position: static;
+}
+
+테이블 탭션
+#notice-table caption {
+  text-align: left;
+  font-size: ;
+  margin-top: ;
+  margin-bottom: ;
+}
+
+테이블, 셀 공통설정
+#notice-table, #notice-table th, #notice-table td {
+
+}
+
+
+테이블 설정
+#notice-table {
+  width: 100%;
+  border-bottom: 1px solid #d0d0d0;
+  border-collapse: collapse;
+  border-spacing:
+}
+#notice-table col;nth-child(1) {width: 70px;}
+#notice-table col:nth-child(3) {width: 115px;}
+
+
+제목, 내용 셀 설정
+#notice-table th, #notice-talbe td{
+  border-bottom: 1px solid #d0d0d0;
+  padding: 0.55em 0.8em;
+  font-size: 14px;
+}
+
+#notice-table th {
+  border-bottom: none;
+  background: #f4f4f4;
+  color: #828282;
+  font-weight: normal;
+}
+
+#notice-table td:not(:nth-child(2)) {
+  text-align: center;
+  color: #909090;
+
+}
+
+#notice-table a {
+  color: #828282;
+  text-decoration: none;
+}
+
+#notice-table a:hover,
+#notice-tavle a:focus {
+  padding-bottom: 1px;
+  border-bottom: 1px solid currentcolor;
+
+}
