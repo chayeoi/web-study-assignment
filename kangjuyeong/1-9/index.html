@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>카카오뱅크</title>
+</head>
+<body>
+<h1>카카오뱅크</h1>
+<h2>금리안내</h2>
+<p id="summary">예금/적금 및 대출 금리를 한눈에 확인할 수 있습니다.</p>
+<table border="1" aria-describedby="summary">
+  <caption>예금/적금
+    <p>기준일자:2018.03.11 (연이율,세전,단위 :%)</p>
+  </caption>
+  <thead>
+    <tr>
+      <th rowspan="2" scope="col" id="1">상품명</th>
+      <th rowspan="2" scope="col" id="2">이자지급방법</th >
+      <th rowspan="2" scope="col" id="3">기간</th>
+      <th colspan="2" scope="colgroup" id="4">금리</th>
+    </tr> 
+    <tr>
+      <th scope="col" id="4-1">기본</th>
+      <th scope="col" id="4-2">우대<sub><a href="#footnote1">주1)</a> </sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td headers="1">카카오뱅크 입출금통장</td>
+      <td headers="2">결산원가식</td>
+      <td headers="3">-</td>
+      <td headers="4 4-1">0.10</td>
+      <td headers="4 4-2">-</td>
+    </tr>
+    <tr>
+      <td headers="1">세이프박스</td>
+      <td headers="2">결산원가식</td>
+      <td headers="3">-</td>
+      <td headers="4 4-1">1.20</td>
+      <td headers="4 4-2">-</td>
+    </tr>
+    <tr>
+      <td rowspan="4" headers="1">카카오뱅크 자유적금</td>
+      <td rowspan="4" headers="2">만기일시지급식</td>
+      <td headers="3">6개월이상12개월미만</td>
+      <td headers="4 4-1">1.80</td>
+      <td headers="4 4-1">0.20</td>
+    </tr>
+    <tr>
+      <td headers="3">12개월이상 24개월미만</td>
+      <td headers="4 4-1">2.00</td>
+      <td headers="4 4-1">0.20</td>
+    </tr>
+    <tr>
+      <td headers="3">24개월 이상 36개월 미만</td>
+      <td headers="4 4-1">2.10</td>
+      <td headers="4 4-1">0.20</td>
+    </tr>
+    <tr>
+      <td headers="3">36개월</td>
+      <td headers="4 4-1">2.20</td>
+      <td headers="4 4-1">0.20</td>
+    </tr>
+    <tr>
+      <td rowspan="6" headers="1">카카오뱅크 정기예금</td>
+      <td rowspan="6" headers="2">만기일시 지급식</td>
+      <td headers="3">1개월 이상 3개월 미만</td>
+      <td headers="4 4-1">1.30</td>
+      <td headers="4 4-2">0.00</td>
+    </tr>
+    <tr>
+        <td headers="3">3개월 이상 6개월 미만</td>
+        <td headers="4 4-1">1.50</td>
+        <td headers="4 4-2">0.00</td>
+    </tr>
+    <tr>
+        <td headers="3">6개월 이상 12개월 미만</td>
+        <td headers="4 4-1">1.80</td>
+        <td headers="4 4-2">0.00</td>
+    </tr>
+    <tr>
+        <td headers="3">12개월 이상 24개월 미만</td>
+        <td headers="4 4-1">2.20</td>
+        <td headers="4 4-2">0.00</td>
+    </tr>
+    <tr>
+        <td headers="3">24개월 이상 36개월 미만</td>
+        <td headers="4 4-1">2.25</td>
+        <td headers="4 4-2">0.00</td>
+    </tr>
+    <tr>
+        <td headers="3">36개월</td>
+        <td headers="4 4-1">2.25</td>
+        <td headers="4 4-2">0.00</td>
+    </tr>
+  </tbody>
+
+</table>
+<p id="footnote1">주1)우대금리 조건은 카카오뱅크 모바일앱 또는 상품설명서를 참고하시기 바랍니다.</p>
+
+<table border="1" aria-describedby="summary">
+  <caption>대출</caption>
+  <p>기준일자 :2018.03.11 (단위:%)</p>
+<thead>
+  <tr>
+    <th scope="col" id="5">기준금리</th>
+    <th scope="col" id="6">변동주기</th>
+    <th scope="col" id="7">기본금리</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td headers="5">신규취급액 기준 COFIX <sub><a href="#footnote2">주1)</a></sub></td>
+    <td headers="6">6개월</td>
+    <td headers="7">1.780</td>
+  </tr>
+  <tr>
+  <td rowspan="4" headers="5">금융채(AAA)유통수익률 <sub><a href="#footnote3">주2)</a></sub></td> 
+  <td headers="6">3개월</td>
+  <td headers="7">1.629</td>
+  </tr>
+  <tr>
+    <td headers="6">6개월</td>
+    <td headers="7">1.770</td>
+  </tr>
+  <tr>
+    <td headers="6">12개월</td>
+    <td headers="7">2.066</td>
+  </tr>
+  <tr>
+    <td headers="6">5년</td>
+    <td headers="7">2.729</td>
+  </tr>
+</tbody>
+</table>
+<p>기준일자에 대출을 하는 경우 적용되는 기준금리입니다. 
+  대출금리는 기준금리에 상품종류 및 신용등급 기준에 따라
+  가산금리를 더하여 적용됩니다.
+</p>
+<p id="footnote2">주1) 기준일자의 2영업일 전 전국연합은행협회에서 고시한 금리 적용</p>
+<p id="footnote3">주2) 기준일자의 2영업일 전 한국금융투자협회에서 고시한 금리 적용</p>
+</body>
+</html>
+
+<!-- 필기1. <!-- td[headers]*3 -->
+<!-- 👆headers 속성을 넣은 td 태그를 만들때 쓰는 에밋 -->
+
+<!-- 필기2. scope 는 제목셀(thead)에만 들어간다.!!! -->
+<!-- 필기3. <a href="#footnote2344"></a> <p id="footnote2344"></p> >앵커넣을때 #빼먹지말것 -->
+

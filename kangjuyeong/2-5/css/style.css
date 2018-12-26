@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(195, 206, 211);
+}
+
+.square clearfix{
+  width: 1118px;
+  margin-top: 342px; 
+  margin-left: 141px;
+}
+
+.sq4-1{
+  float: left;
+  width: 559px;
+  height: 559px;
+  background-image: url(../images/css-layout__floating-02_03.jpg);
+}
+
+.sq4-2{
+  float: left;
+  width: 559px;
+  height: 559px;
+  background-image: url(../images/css-layout__floating-02_04.jpg);
+}
+
+.sq4-3{
+  float: left;
+  width: 559px;
+  height: 559px;
+  background-image: url(../images/css-layout__floating-02_07.jpg);
+}
+
+.sq4-4{
+  float: left;
+  width: 559px;
+  height: 559px;
+  background-image: url(../images/css-layout__floating-02_08.jpg);
+}
+
+.square::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.rec clearfix{
+  width: 1118px;
+  
+
+}
+.r4-1{
+  float: left;
+  width: 1118px;
+  height: 559px;
+  background-image: url(../images/css-layout__floating-02_11.jpg);
+}
+
+.r4-2{
+  float: left;
+  width: 559px;
+  height: 1118px;
+  background-image: url(../images/css-layout__floating-02_12.jpg);
+}
+
+.r4-3{
+  float: left;
+  width: 559px;
+  height: 1118px;
+  background-image: url(../images/css-layout__floating-02_13.jpg);
+}
+
+.r4-4{
+  float: left;
+  width: 1118px;
+  height: 559px;
+  background-image: url(../images/css-layout__floating-02_14.jpg);
+}
+
+.rec::after {
+  content: '';
+  display: block;
+  clear: both;
+}

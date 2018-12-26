@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  width: 1280px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 527px;
+  height: 426px;
+  background: url('assets/bg.png');
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 69px;
+  height: 294px;
+  background: url('assets/logo.png');
+}
+
+.shole {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  width: 160px;
+  height: 230px;
+  background: url('assets/shole.png');
+}
+
+.christian-dior {
+  position: absolute;
+  top: 63%;
+  left: 29.5%;
+  width: 136px;
+  height: 18px;
+  background: url('assets/christian-dior.png');
+}
+
+.model-1 {
+  position: absolute;
+  top: 38%;
+  left: 36%;
+  width: 145px;
+  height: 311px;
+  background: url('assets/model-1.png');
+}
+
+.model-2 {
+  position: absolute;
+  top: 38%;
+  right: 35.5%;
+  width: 153px;
+  height: 297px;
+  background: url('assets/model-2.png');
+}
+
+.bag {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  width: 166px;
+  height: 166px;
+  background: url('assets/bag.png');
+}

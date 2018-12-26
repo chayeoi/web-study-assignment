@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 1920px;
+  height: 777px;
+  background: url('../images/BG.png');
+}
+
+.clearfix::after {
+  content: ''
+  display: block;
+  clear: both;
+}
+
+.title {
+  position: absolute;
+  width: 485px;
+  height: 231px;
+  background: url('../images/nexon\ title.png');
+  margin: 53px 717px 493px 718px ;
+}
+
+.planet-left {
+  position: absolute;
+  width: 71px;
+  height: 68px;
+  background: url('../images/planet-left.png');
+  margin: 245px 1522px 464px 327px;
+}
+
+.planet-right {
+  position: absolute;
+  width: 91px;
+  height: 84px;
+  background: url('../images/planet-right.png');
+  margin: 61px 354px 632px 1475px;
+}
+
+.youtube {
+  position: absolute;
+  width: 670px;
+  height: 383px;
+  margin: 332px 625px 62px 625px;
+}
+
+.robot-left {
+  position: absolute;
+  width: 303px;
+  height: 294px;
+  background: url('../images/robot-left.png');
+  margin: 385px 1267px 98px 350px;
+}
+
+.robot-right {
+  position: absolute;
+  width: 239px;
+  height: 314px;
+  background: url('../images/robot-right.png');
+  margin: 380px 425px 83px 1256px;
+}
