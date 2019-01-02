@@ -4,12 +4,12 @@ body{
 
 .video-wrap,
 #bg-video{
-  width: 1680px;
+  width: 100%;
   height: 940px;
 }
 
 .video-wrap #bg-video iframe {
-  width: inherit;
+  width: 100%;
   height: inherit;
   margin: 0;
   padding: 0;
@@ -40,8 +40,6 @@ header{
   justify-content: space-between;
   margin: 30px 0;
 }
-
-
 
 ul{
   list-style: none;
