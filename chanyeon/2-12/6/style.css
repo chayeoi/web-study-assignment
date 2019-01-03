@@ -499,7 +499,10 @@ body.show-grid::before {
 
 .layout {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
+  overflow: auto;
   margin-bottom: 2px;
   background-color: #FFF;
 }
@@ -543,3 +546,36 @@ body.show-grid::before {
   margin-left: 10px;
 }
 
+.list {
+  display: flex;
+  flex-basis: 90%;
+  color: #FFF;
+}
+
+.item {
+  flex-basis: 33.33333%;
+  overflow: hidden;
+  margin: 0 4px;
+  border-radius: 5px;
+  background-color: #73AFAB;
+}
+
+.figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #B2DFDB;
+}
+
+.item-title {
+  margin: 14px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.item-paragraph {
+  margin: 14px;
+  font-size: 14px;
+  line-height: 1.5;
+}
