@@ -1,0 +1,29 @@
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  background-color: orange;
+  padding: 20px;
+}
+.item {
+ 
+  width: 300px;
+  height: 300px;
+   background-color: blueviolet;
+   margin: 0 200 0 200;
+ 
+}
+.item-1{
+  float:left;
+}
+.item-3{
+  float:right;
+}
+  
+
+
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
