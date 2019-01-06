@@ -1,0 +1,164 @@
+.container {
+  
+  width: 1000px;
+  margin: 0 auto;
+ 
+  
+
+}
+
+.clearfix::after{
+  content:'';
+  display: block;
+  clear: both;
+}
+.box {
+  float: left;
+  width: 250px;
+  height: 250px;
+}
+
+.item-1 {
+  
+  background: url('https://s8.postimg.cc/o71ak5251/float_01.png');
+  background-size: 250px;
+}
+
+.item-2 {
+  
+  background: url('https://s8.postimg.cc/bfn4dn7sl/float_02.png');
+  background-size: 250px;
+}
+
+.item-3 {
+  
+  background: url('https://s8.postimg.cc/e9q9r44tx/float_03.png');
+  background-size: 250px;
+}
+
+.item-4 {
+float:left;
+  background: url('https://s8.postimg.cc/8ljz07l1x/float_04.png');
+  background-size: 250px;
+}
+
+.item-5 {
+
+  background: url('https://s8.postimg.cc/8ljz07srp/float_05.png');
+  background-size: 250px;
+}
+
+.item-6 {
+  background: url('https://s8.postimg.cc/lppjcx091/float_06.png');
+  background-size: 250px;
+}
+
+.item-7 {
+  background: url('https://s8.postimg.cc/4p6n47cx1/float_07.png');
+  background-size: 250px;
+}
+
+.item-8 {
+  background: url('https://s8.postimg.cc/m2gxj2nnp/float_08.png');
+  background-size: 250px;
+}
+
+.item-9 {
+  background: url('https://s8.postimg.cc/va95zsxat/float_09.png');
+  background-size: 250px;
+}
+
+.item-10 {
+  background: url('https://s8.postimg.cc/4cf8y2s39/float_10.png');
+  background-size: 250px;
+}
+
+.item-11 {
+  background: url('https://s8.postimg.cc/chxaw88md/float_11.png');
+  background-size: 250px;
+}
+
+.item-12 {
+  background: url('https://s8.postimg.cc/m2gxj50j9/float_12.png');
+  background-size: 250px;
+}
+
+.item-13 {
+  background: url('https://s8.postimg.cc/xrkx73js5/float_13.png');
+  background-size: 250px;
+}
+
+.item-14 {
+  background: url('https://s8.postimg.cc/4p6n4acxx/float_14.png');
+  background-size: 250px;
+}
+
+.item-15 {
+  background: url('https://s8.postimg.cc/m2gxj50j9/float_12.png');
+  background-size: 250px;
+}
+
+.item-16 {
+  background: url('https://s8.postimg.cc/xetj0xonp/float_16.png');
+  background-size: 250px;
+}
+
+.item-17 {
+  background: url('https://s8.postimg.cc/a0ljp0eg5/float_17.png');
+  background-size: 250px;
+}
+
+.item-18 {
+  background: url('https://s8.postimg.cc/pyu9f3ydh/float_18.png');
+  background-size: 250px;
+}
+
+.item-19 {
+  background: url('https://s8.postimg.cc/xrkx74md1/float_19.png');
+  background-size: 250px;
+}
+
+.item-20 {
+  background: url('https://s8.postimg.cc/ivmdzjio5/float_20.png');
+  background-size: 250px;
+}
+
+.item-21 {
+  background: url('https://s8.postimg.cc/5epfgog2d/float_21.png');
+  background-size: 250px;
+}
+
+.item-22 {
+  background: url('https://s8.postimg.cc/ojsoqg2g5/float_22.png');
+  background-size: 250px;
+}
+
+.item-23 {
+  background: url('https://s8.postimg.cc/8ljz0bfxx/float_23.png');
+  background-size: 250px;
+}
+
+.item-24 {
+  background: url('https://s8.postimg.cc/uxhrtpuhh/float_24.png');
+  background-size: 250px;
+}
+
+.item-25 {
+  background: url('https://s8.postimg.cc/8ljz0bnnp/float_25.png');
+  background-size: 250px;
+}
+
+.item-26 {
+  background: url('https://s8.postimg.cc/chxawbo2t/float_26.png');
+  background-size: 250px;
+}
+
+.item-27 {
+  background: url('https://s8.postimg.cc/7j9shsrzp/float_27.png');
+  background-size: 250px;
+}
+
+.item-28 {
+  background: url('https://s8.postimg.cc/o71akauh1/float_28.png');
+  background-size: 250px;
+}
