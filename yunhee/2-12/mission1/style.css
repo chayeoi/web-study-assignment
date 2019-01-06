@@ -1,0 +1,43 @@
+/* 
+
+section{
+	display: flex;
+	justify-content: center;
+  
+	
+	
+} */
+
+section {
+  margin: 0 auto;
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+	height: 100vh;
+	width: 100vh;
+	overflow: hidden;
+}
+
+.right-flex, .left-flex{
+  width: 50%;
+	height: 100%;
+}
+
+
+.left-flex{
+  background-image: url('../image/image1.jpg');
+	background-repeat : no-repeat;
+	background-size: cover;
+  background-position: center;
+  display: inline-block;
+
+}
+
+.right-flex{
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* display: inline-block; */
+}

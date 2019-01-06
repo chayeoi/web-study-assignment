@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;	
+	color: #169587;
+}
+
+ul {
+	list-style: none;
+	margin-left: auto;
+	display: flex;
+	justify-content: center;
+}
+
+ul li {
+	float: left;
+	margin-left: 15px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.wrap {
+	width: 1000px;
+	border-radius: 5px;
+	background-color: #169587;
+}
+
+.nav {
+	height: 55px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1px solid #FEA949;
+}
+
+.circle {
+	width: 15px;
+	height: 15px;
+	background-color: #167567;
+	margin-left: 20px;
+	border-radius: 100%;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.top {
+	padding: 1.5rem;
+	margin-top: 2px;
+	background-color: white;
+	display:flex;
+	align-items: center;
+	font-weight: bold;
+}
+
+.mid {
+	display: flex;
+	height: 500px;
+	background-color: white;
+	margin-top: 2px;
+	/*margin: 2px;*/
+	/*flex-direction: row;*/
+	align-items: center;
+	justify-content: center;
+}
+
+.mid-content {
+	margin: 20px 40px;
+	display: flex;
+}
+
+.mid .mid-content li {
+	display: flex;
+	flex-direction: column;
+	background-color: #73AFAB;
+	flex: 1 0 200px;
+	border-radius: 5px; /*여기서 왜 전체 네모가 둥글게 되지 않는지 모르겠습니다. 아래만 둥글게 됩니다.*/
+}
+
+p {
+	margin: 10px 14px;
+	color:white;
+	font-size: 13px;
+}
+
+h4 {
+	margin: 14px 14px;
+	color:white;
+}
+
+figure {
+	display: flex;
+	background-color: #86c5c5;
+	height: 120px;
+	justify-content: center;
+	align-items: center;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+/*
+.mid figure {
+	background-color: #86c5c5;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px 5px 0 0;
+}
+
+.mid h4,
+.mid p {
+	color: white;
+	background-color: #73AFAB;
+}
+
+li {
+	margin: 0 0 0 10px;
+}*/
+.bottom {
+	margin-top: 2px;
+	padding: 1.2rem 0;
+	background-color: white;
+	font-weight: bold;
+}

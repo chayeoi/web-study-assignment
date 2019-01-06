@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrap {
+	width: 1000px;
+	background-color: #653AB7;	
+	border-radius: 5px 5px 0 0;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	height: 55px;
+	border-bottom: 1px solid #eee;
+}
+
+.circle {
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background-color: #CDCDCF;
+	margin-left: 20px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.top {
+	color: #653AB7;
+	background-color: white;
+	display:flex;	
+	align-items: center;
+	height: 70px;
+	padding: 0 10px 0 10px;
+}
+
+.top ul {
+	margin-left: auto;	/* 이것을 하면 오른쪽으로 정렬이 되는 이유? */
+}
+
+.top ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+.top ul li a {	
+	color: #653AB7;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mid {
+	height: 600px;
+	overflow: auto;
+	margin-top: 10px;
+	background-color: white;	
+	color: #653AB7;
+	font-weight: bold;
+  	padding: 2.5rem 4rem 2.5rem;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	background-color: white;
+	font-weight: bold;
+	padding: 1.5rem 1.5rem;
+}
+
+.bottom ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+.bottom ul li a {	
+	color: #653AB7;
+	font-size: 20px;
+	font-weight: bold;
+}

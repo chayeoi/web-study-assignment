@@ -1,0 +1,104 @@
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Nanum Barun Gothic', sans-serif;
+  background: #fff;
+}
+
+h2,
+h3 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+span {
+  display: block;
+  padding-top: 18px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #a3a3a3;
+}
+
+section {
+  position: absolute;
+  top: 50px;
+  left: 4%;
+}
+
+.cont-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  width: 1092px;
+  height: 552px;
+  border-radius: 5px;
+  background: #2f2f2f;
+}
+
+.cont-left {
+  display: flex;
+  flex: 0 0 24%;
+  justify-content: flex-end;
+  flex-flow: column;
+  height: 540px;
+  color: #fff;
+  background: url('https://user-images.githubusercontent.com/39334863/44787349-e26b5680-abd1-11e8-8407-337f2cb581ba.png') no-repeat;
+  background-size: cover;
+  background-position: right;
+  border-right: 5px solid #505050;
+}
+
+.cont-left h3 {
+  padding: 0 0 8px 20px;
+}
+
+.cont-left p {
+  margin: 0;
+  padding: 0 0 20px 20px;
+}
+
+.cont-left img {
+  width: 536px;
+  height: 540px;
+}
+
+.cont-right {
+  display: flex;
+  flex: 0 0 71%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  height: 500px;
+  overflow: auto;
+  text-align: left;
+  color: #505050;
+  background: #fff;
+}
+
+.cont-right h3 {
+  margin-bottom: 8px;
+}
+
+.cont-right img {
+  margin-bottom: 10px;
+  width: 480px;
+}
+
+.cont-right .img-02 {
+  width: 100%;
+  height: auto;
+}

@@ -1,18 +1,52 @@
-/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+button, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
-/* Document
-   ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
+/* Normalize css */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -45,12 +79,9 @@ h1 {
  */
 
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -59,10 +90,8 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -82,12 +111,9 @@ a {
  */
 
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -107,10 +133,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -166,14 +190,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -182,8 +202,7 @@ textarea {
  */
 
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -193,8 +212,7 @@ input {
  */
 
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -248,18 +266,12 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -285,10 +297,8 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -306,10 +316,8 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -326,10 +334,8 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -370,230 +376,171 @@ template {
   display: none;
 }
 
-/* Set heading */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
+button {
+  color: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-ul,
-ol {
-  list-style: none;
+h1 {
   margin: 0;
-  padding: 0;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Gotham, sans-serif;
+  color: #3c3d48;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+/* Remove link styles. */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: inherit;
 }
 
 .a11y-hidden {
-  width: 1;
-  height: 1;
   overflow: hidden;
-  margin: -1px;
-  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  background-color: red;
   position: absolute;
-}
-
-.container {
-  width: 1700px;
-  height: 1000px;
+  clip: rect(0, 0, 0, 0);
+  margin: -1px;
 }
 
 .clearfix::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
 
-.left,
-.right {
-  position: relative;
-  width: 850px;
-  height: 100%;
-  float: left;
-}
-
-.left {
-  z-index: 10;
-  background: #8bc34a linear-gradient(to right, #78a840 0, #78a840 50px, #8bc34a 50px, #8bc34a);
-  color: #fff;
-  box-shadow: 5px 0 20px 5px #eee;
-}
-
-.title {
-  width: 480px;
-  margin: 360px 0 191px 133px;
-  font-size: 84px;
-  font-weight: 300;
-}
-
-.reminder {
-  margin-left: 127px;
-  font-size: 30px;
-}
-
-.reminder p {
-  margin-bottom: 25px;
-  padding-bottom: 5px;
-  width: 600px;
-  border-bottom: 1px solid #fff;
-}
-
-.reminder ul {}
-
-.reminder li::before {
-  content: "";
+/* Show grid columns */
+body.show-grid::before {
+  z-index: 1000;
+  content: '';
   position: absolute;
-  left: 0;
-  width: 45px;
-  height: 45px;
-  background: #fff;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #fff url(assets/check@2x.png) 50% / 32px no-repeat;
-}
-
-.reminder li {
-  height: 50px;
-  position: relative;
-  padding-left: 60px;
-  line-height: 50px;
-}
-
-.left-sideber-button {
-  padding: 0;
-  border: none;
-  width: 54px;
-  background-color: transparent;
-  position: absolute;
-  top: 54px;
-  left: 100px;
-  cursor: pointer;
-  outline: none;
-}
-
-.rectangle {
-  height: 6px;
-  margin-bottom: 9px;
-  background-color: #fff;
-}
-
-.right-sideber-button {
-  padding: 0;
-  border: none;
-  width: 10px;
-  background-color: transparent;
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  cursor: pointer;
-  outline: none;
-}
-
-.circle {
-  background-color: #fff;
-  height: 10px;
-  width: 10px;
-  margin-bottom: 3px;
-  border-radius: 50%;
-}
-
-.right {}
-
-.subtitle {
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  font-size: 60px;
-  color: rgba(128, 128, 128, 255);
-  font-weight: 300;
-}
-
-.table-wrapper {
-  position: absolute;
-  top: 350px;
   left: 50%;
   transform: translateX(-50%);
+  width: 940px;
+  height: 400vh;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 200, 150, 0.2),
+      rgba(0, 200, 150, 0.2) 60px,
+      rgba(255,255,255,0) 60px,
+      rgba(255,255,255,0) 80px
+    );
 }
 
-.months {
-  display: flex;
-  width: 780px;
-  /* main-axis에 대한 설정 */
-  justify-content: space-between;
-  /* cross-axis에 대한 설정 */
-  align-items: flex-end;
-  color: rgba(191, 191, 191, 255);
-  margin-bottom: 30px;
+.header {
+  font-family: 11px;
 }
 
-.months li:nth-child(4) {
-  font-size: 28px;
-  font-weight: 700;
-  color: rgba(128, 128, 128, 255)
+.header__title-wrapper {
+  position: relative;
+  height: 100px;
+  width: 940px;
+  margin: 0 auto;
 }
 
-th,
-td {
-  empty-cells: hide;
-  padding: 10px;
-}
-
-.calendar-table {
-  /* 셀 사이에 간격 없애기 */
-  border-collapse: collapse;
-  width: 100%;
-  color: rgba(128, 128, 128, 255)
-}
-
-.calendar-table th {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.calendar-table td {
+.header__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
   font-size: 24px;
 }
 
-.calendar-table td div {
-  width: 60px;
-  height: 60px;
-  /* 인라인 텍스트 가운데 정렬 하기 위해 부모의 높이와 같은 값을 준다 */
-  line-height: 60px;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 5px;
+.header__cs-info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(60, 61, 72, 255);
+    font-size: 11px;
 }
 
-.calendar-table td div:hover {
-  background-color: #8bc34a;
-  color: #fff;
-  font-weight: 500;
+.header__cs-info::before {
+  content: '';
+  float: left;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  /* postion / size 는 순서를 지키고 /로 구분해 주어야 한다. */
+  background: url('assets/icons/Icon-headset.svg') 50% / cover no-repeat;
 }
 
-.more-button {
+.header__menu{
+  right: 0;
   position: absolute;
-  right: 50px;
-  bottom: 50px;
-  background :#8bc34a url('assets/add@2x.png') 50% / 32px no-repeat;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  box-shadow: 5px 0 20px 5px #eee;
+  top: 50%;
+  transform: translateY(-50%);
+  display:flex;
+  align-items: center;
+  line-height: 12px;
+  font-size: 11px;
+  color: rgba(60, 61, 72, 255);
 }
+
+.header__bg {
+  border-bottom: 1px solid #f2f2f2
+}
+
+.header__categories {
+  max-width: 940px;
+  height: 68px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: 11px;
+  color: rgba(60, 61, 72, 255);
+}
+
+.header__carousel-woman {
+  width: 1200px;
+  height: 583px;
+  background-color: red;
+  margin: 0 auto;
+  background: url('assets/header/woman.png') 85% / contain no-repeat;
+}
+
+.header__carousel-wrapper {
+  background-color: #f2f2f2;
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header__carouse-title {
+  position: absolute;
+  top: 216px;
+  left: 130px;
+  font-size: 110px;
+  font-weight: bold;
+  /* 자간 */
+  letter-spacing: 10px;
+}
+
+.header__carousel-paragraph {
+  position: absolute;
+  top: 329px;
+  left: 215px;
+  font-size: 15px;
+  font-family: 'PT Serif', serif;
+  color: rgba(60, 61, 72, 255);
+  font-style: italic;
+}
+
