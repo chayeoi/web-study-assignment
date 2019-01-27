@@ -1,0 +1,67 @@
+/* Fonts */
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-bold-webfont.eot');
+    src: url('aileron-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aileron-bold-webfont.woff') format('woff'),
+         url('aileron-bold-webfont.ttf') format('truetype'),
+         url('aileron-bold-webfont.svg#aileronbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-light-webfont.eot');
+    src: url('aileron-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aileron-light-webfont.woff') format('woff'),
+         url('aileron-light-webfont.ttf') format('truetype'),
+         url('aileron-light-webfont.svg#aileronlight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-regular-webfont.eot');
+    src: url('aileron-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aileron-regular-webfont.woff') format('woff'),
+         url('aileron-regular-webfont.ttf') format('truetype'),
+         url('aileron-regular-webfont.svg#aileronregular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-bolditalic-webfont.eot');
+    src: url('aileron-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aileron-bolditalic-webfont.woff') format('woff'),
+         url('aileron-bolditalic-webfont.ttf') format('truetype'),
+         url('aileron-bolditalic-webfont.svg#aileronbold_italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-italic-webfont.eot');
+    src: url('aileron-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aileron-italic-webfont.woff') format('woff'),
+         url('aileron-italic-webfont.ttf') format('truetype'),
+         url('aileron-italic-webfont.svg#aileronitalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-lightitalic-webfont.eot');
+    src: url('aileron-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aileron-lightitalic-webfont.woff') format('woff'),
+         url('aileron-lightitalic-webfont.ttf') format('truetype'),
+         url('aileron-lightitalic-webfont.svg#aileronlight_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+
+}
