@@ -434,6 +434,23 @@ button {
   background-color: #008833;
   display: flex;
   justify-content: space-between;
+  padding: 2rem 1.8rem;
+}
+
+.app-bar__title {
+  overflow: hidden;
+  width: 24px;
+  height: 34px;
+  padding-top: 34px;
+  background: url('../../assets/3-X/assets/logo.svg') no-repeat;
+}
+
+.app-bar__more-button {
+  overflow: hidden;
+  width: 31px;
+  height: 24px;
+  padding-top: 24px;
+  background: url('../../assets/3-X/assets/menu.svg') no-repeat;
 }
 
 .app-bar__nav {
